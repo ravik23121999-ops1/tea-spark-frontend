@@ -27,7 +27,7 @@ const initialState: CartState = {
   error: null,
 };
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://tea-spark-backend.onrender.com/api';
 
 // Generate or get session ID
 export const getSessionId = () => {

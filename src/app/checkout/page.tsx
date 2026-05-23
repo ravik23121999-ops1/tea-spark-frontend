@@ -11,7 +11,7 @@ import Header from '@/components/Header/Header';
 import { RootState } from '@/redux/store';
 import { getCart, getSessionId } from '@/redux/cartSlice';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://tea-spark-backend.onrender.com/api';
 
 export default function CheckoutPage() {
   const router = useRouter();

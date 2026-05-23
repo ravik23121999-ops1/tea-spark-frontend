@@ -4,7 +4,7 @@ import type { RootState } from './store';
 export const apiSlice = createApi({
     reducerPath: 'api',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:8000/api',
+        baseUrl: 'https://tea-spark-backend.onrender.com/api',
         prepareHeaders: (headers, { getState }) => {
             const state = getState() as RootState;
             const token = state.auth.token || state.auth.adminToken;

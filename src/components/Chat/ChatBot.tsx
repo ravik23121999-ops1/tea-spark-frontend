@@ -54,7 +54,7 @@ const ChatBot: React.FC = () => {
     setIsTyping(true);
 
     try {
-      const response = await fetch('http://localhost:8000/chat/message', {
+      const response = await fetch('https://tea-spark-backend.onrender.com/chat/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

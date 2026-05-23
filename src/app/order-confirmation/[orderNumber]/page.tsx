@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import { CheckCircle2, XCircle, ArrowLeft, Package } from 'lucide-react';
 import Header from '@/components/Header/Header';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://tea-spark-backend.onrender.com/api';
 
 interface Order {
   orderNumber: string;
